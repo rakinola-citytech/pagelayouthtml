@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rakinola_musicwebsite_about</title>
+    <style>
+        #banner{
+            border: 2px solid black;
+            width: 100%;
+            height: auto;
+        }
+        .header{
+            position: sticky;
+            padding: 5px;
+            width: 99%;
+            z-index: 2;
+        }
+        .sidebar {
+            height: auto;
+            width: 20%;
+            float: left;
+            position: fixed;
+            z-index: 1;
+            margin: auto;
+            overflow-x: auto;
+            overflow-y: auto;
+            list-style: none;
+        }
+        body{ 
+            font-family: "Brush Script MT";
+            font-size: 2vw;
+            background-color:#bfb9b9;
+        }
+        h1{
+            text-align: center;
+            font-size: 4vw;
+            position: sticky;
+            padding-left: 15%;
+            margin: auto;
+        }
+        .sidebar a{
+            margin: 25px;
+            font-weight: bold;
+            display: block;
+            font-family: 'Times New Roman', Times, serif;
+            border: 2px solid black;
+            background-color: black;
+            padding: 10px 10px;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+        }
+        .sidebar a:hover{
+            background-color: white;
+            color:black;
+        }
+        a.active{
+            background-color: white;
+            color:black;
+        }
+        .main{
+            width: 75%;
+            height: 430px;
+            float: left;
+            position: sticky;
+            left: 22.5%;
+            border: 1px solid black;
+            overflow-y: auto;
+            z-index: 3;
+        }
+        #image-layout{
+            float:left;
+            border: 5px solid black;
+            width: 20%;
+            height: auto;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-bottom: 5%;
+        }
+        p{
+            font-size: 2.8vw;
+        }
+        .column {
+        display: flex;
+        flex-direction: column; /* Makes the articles stacked vertically */
+        }
+        .article {
+        flex: 1; /* Stretches the articles to fill up the remaining space */
+        }
+    </style>
+</head>
+<body>
+    <div class="header"> 
+        <img id ="banner" src="../images/music_header.png" alt="header image">
+    </div>
+    
+    <div class="sidebar">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="tracks.html" class="active">Tracks</a></li>
+        <li><a href="samples.html">Samples</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="video.html">Video</a></li>
+    </div>
+
+    <h1>Tracks</h1>
+
+    <div class="main">
+        <div class="column">
+            <article class="article">
+                <p>
+                    <img id="image-layout" src="../images/tracks_offence.jpg" alt="album cover">
+                    <p> 1. "Offence" </p>
+                    Producers: Inflo <br>
+                    Writers: Simbiatu Ajikawo. Dean Josiah Cover. Cloepatra <br>
+                    &emsp;&emsp;&emsp;Nikolic<br>
+                    Length: 2:48 min
+                </p>
+            </article>
+        </div>
+        <div class="column">
+            <article class="article">
+                <p>
+                    <img id="image-layout" src="../images/tracks_boss.jpg" alt="album cover">
+                    <p> 2. "Boss" </p>
+                    Producers: Inflo <br>
+                    Writers: Ajikawo. Cover<br>
+                    Length: 3:05 min
+                </p>
+            </article>
+        </div>
+        <div class="column">
+            <article class="article">
+                <p>
+                    <img id="image-layout" src="../images/tracks_selfish.jpg" alt="album cover">
+                    <p> 3. "Selfish" (featuring Cleo Sol)</p>
+                    Producers: Inflo <br>
+                    Writers: Ajikawo. Cover. Nikolic <br>
+                    Length: 3:46 min
+                </p>
+            </article>
+        </div>
+        <div class="column">
+            <article class="article">
+                <p>
+                    <img id="image-layout" src="../images/tracks_wounds.jpg" alt="album cover">
+                    <p> 4. "Wounds" (featuring Chronixx) </p>
+                    Producers: Inflo <br>
+                    Writers: Ajikawo. Cover. Jamar Rolando McNaughton. Miles <br>
+                    &emsp;&emsp;&emsp;James<br>
+                    Length: 4:39 min
+                </p>
+            </article>
+        </div>
+        <div class="column">
+            <article class="article">
+                <p>
+                    <img id="image-layout" src="../images/tracks_venom.jpg" alt="album cover">
+                    <p> 5. "Venom" </p>
+                    Producers: Inflo <br>
+                    Writers: Ajikawo. Cover. Charles E Dickerson. Stephen Lee <br>
+                    &emsp;&emsp;&emsp;Bruner<br>
+                    Length: 2:34 min
+                </p>
+            </article>
+        </div>
+        <div class="column">
+            <article class="article">
+                <p>
+                    <img id="image-layout" src="../images/tracks_101fm.jpg" alt="album cover">
+                    <p> 6. "101 FM" </p>
+                    Producers: Inflo <br>
+                    Writers: Ajikawo. Cover <br>
+                    Length: 3:11 min
+                </p>
+            </article>
+        </div>
+        <div class="column">
+            <article class="article">
+                <p>
+                    <img id="image-layout" src="../images/tracks_pressure.jpg" alt="album cover">
+                    <p> 7. "Pressure" (featuring Little Dragon) </p>
+                    Producers: Inflo. Sigurd <br>
+                    Writers: Ajikawo. Cover. Yukimi Nagano. Erik Bodin. <br>
+                    &emsp;&emsp;&emsp;Fedrik Wallin. Hakan Wirenstrand. Sigurd Strume <br>
+                    &emsp;&emsp;&emsp;Lauritzen<br>
+                    Length: 3:27 min
+                </p>
+            </article>
+        </div>
+            <div class="column">
+                <article class="article">
+                    <p>
+                        <img id="image-layout" src="../images/tracks_therapy.jpg" alt="album cover">
+                        <p> 8. "Therapy" </p>
+                        Producers: Inflo <br>
+                        Writers: Ajikawo. Cover <br>
+                        Length: 3:15 min 
+                    </p>
+                </article>
+            </div>
+                <div class="column">
+                    <article class="article">
+                        <p>
+                            <img id="image-layout" src="../images/tracks_sherbetsunset.jpg" alt="album cover">
+                            <p> 9. "Sherbet Sunset" </p>
+                            Producers: Inflo <br>
+                            Writers: Ajikawo. Cover <br>
+                            Length: 4:55 min
+                        </p>
+                    </article>
+            </div>
+            <div class="column">
+                <article class="article">
+                    <p>
+                        <img id="image-layout" src="../images/tracks_flowers.jpg" alt="album cover">
+                        <p> 10. "Flowers" (featuring Micheal Kiwanuka)</p>
+                        Producers: Inflo. Astronote <br>
+                        Writers: Ajikawo. Cover. Micheal Kiwanuka. Mathieu Sandy 
+                        &emsp;&emsp;&emsp;Rakotozafy <br>
+                        Length: 3:45 min
+                    </p>
+                </article>
+        </div>
+    </div>
+
+</body>
+</html>
